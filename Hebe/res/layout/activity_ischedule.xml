@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background" >
+
+    <include
+        android:id="@+id/ischedule_title_bar"
+        layout="@layout/title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="52dp"
+        android:layout_below="@+id/ischedule_title_bar" >
+
+        <TextView
+            android:id="@+id/ischedule_today_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="21sp" 
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="testing"
+            />
+        
+        <ListView 
+            android:id="@+id/ischedule_today_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ischedule_today_tv"
+            android:background="@color/transparent_bg"
+            android:divider="@drawable/restaurant_meals_item_divider1"/>
+        
+            
+    </RelativeLayout>
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button_ISchedule_Update" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_above="@+id/ischedule_title_bar" -->
+    <!-- android:text="@string/function_update_schedule_label" /> -->
+
+    <RelativeLayout
+        android:id="@+id/ischuedule_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_tab_bar" >
+
+        <ImageButton
+            android:id="@+id/button_ISchedule_Update_Course_Schedule_Course"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_ischedule_tab_item_bg"
+            android:src="@drawable/btn_all_course" />
+        <!-- android:text="@string/display_course_schedule" /> -->
+
+        <ImageButton
+            android:id="@+id/button_ISchedule_Get_Exam_Score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/selector_ischedule_tab_item_bg"
+            android:src="@drawable/btn_grade" />
+        <!-- android:text="@string/display_exam_score" /> -->
+
+        <ImageButton
+            android:id="@+id/button_ISchedule_Update_Exam_Schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_ischedule_tab_item_bg"
+            android:src="@drawable/btn_exam" />
+        <!-- android:text="@string/display_exam_schedule" /> -->
+    </RelativeLayout>
+
+</RelativeLayout>

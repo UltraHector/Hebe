@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_ischedule_score_item"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip" >
+
+        <!-- android:background="@color/background" -->
+
+        <TextView
+            android:id="@+id/ischedule_score_item_coursename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ischedule_score_item_status"
+            android:drawableRight="@drawable/score_item_divider"
+            android:gravity="center"
+            android:textColor="@color/ischedule_score_title"
+            android:text="课程名"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ischedule_score_item_status"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ischedule_score_item_creditpoints"
+            android:drawableRight="@drawable/score_item_divider"
+            android:gravity="center"
+            android:textColor="@color/ischedule_score_title"
+            android:text="状态"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ischedule_score_item_creditpoints"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ischedule_score_item_score"
+            android:drawableRight="@drawable/score_item_divider"
+            android:gravity="center"
+            android:textColor="@color/ischedule_score_title"
+            android:text="学分"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ischedule_score_item_score"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/score_item_divider"
+            android:gravity="center"
+            android:textColor="@color/ischedule_score_title"
+            android:text="成绩"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ischedule_score_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

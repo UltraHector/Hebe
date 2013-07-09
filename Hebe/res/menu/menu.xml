@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--     <item  -->
+<!--         android:id="@+id/settings" -->
+<!--         android:title="@string/settings_label" -->
+<!--         android:alphabeticShortcut="@string/settings_shortcut" /> -->
+    <item 
+        android:id="@+id/update_for_course_schedule"
+        android:title="@string/course_schedule_update_label"
+        />
+    <item 
+        android:id="@+id/update_for_exam_schedule"
+        android:title="@string/exam_schedule_update_label"
+        />   
+    <item 
+        android:id="@+id/update_for_waimaixt"
+        android:title="@string/waimaixt_update_label"/>
+    <item 
+        android:id="@+id/update_for_map"
+        android:title="@string/map_data_update_label"/>
+</menu>

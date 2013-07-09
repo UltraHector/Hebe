@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip" 
+    android:background="@drawable/selector_restaurant_item_bg"
+    >
+
+    <ImageView
+        android:id="@+id/waimaixt_item_image"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/activity_WaiMaiXT_label"
+        android:src="@drawable/restaurant_default_logo" />
+
+    <TextView
+        android:id="@+id/waimaixt_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/activity_WaiMaiXT_label"
+        android:textSize="21sp" />
+    
+    <TextView 
+        android:id="@+id/waimaixt_item_subtitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/waimaixt_item_title"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:text="中式（起送价：10元）"
+        android:textSize="12sp"
+        />
+    
+<!--     <ImageButton  -->
+<!--         android:id="@+id/waimaixt_item_favorite_bt" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:src="@drawable/ic_favorite_cancel" -->
+<!--         android:background="@color/transparent_bg" -->
+<!--         /> -->
+
+</RelativeLayout>

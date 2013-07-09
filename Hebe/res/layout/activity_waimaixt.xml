@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ExpandableListView
+        android:id="@+id/waimaixt_expandablelistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:childDivider="@drawable/restaurant_item_divider"
+        android:divider="@drawable/restaurant_item_divider"
+        android:drawSelectorOnTop="false"
+        android:cacheColorHint="#00000000" />
+
+</LinearLayout>

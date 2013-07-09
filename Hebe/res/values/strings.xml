@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">掌上暨大</string>
+    <string name="hello_hebe_title">你好，Hebe</string>
+    <string name="hello_hebe_content">你好，<i>Hebe，we are all your super fans.</i></string>
+    
+    
+    <string name="confirm">确定</string>
+    <string name="concel">取消</string>
+    
+    <string name="app_name_cn">掌上暨大</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">掌上暨大</string>
+    <string name="activity_XinXiPT_label">信息平台</string>
+    
+    <string name="activity_XiaoYuanDT_label">校园地图</string>
+    <string name="get_name_by_location">get_name_by_location</string>
+    <string name="insert_into_path_dot">insert date to path dot</string>
+    <string name="xiaoYuanDTWebViwePrintLine">print line</string>
+    <string name="path_source">起点:</string>
+    <string name="path_dest">终点:</string>
+    <string name="path">路径</string>
+    <string name="search">搜索</string>
+    
+    
+    <string name="activity_WaiMaiXT_label">外卖系统</string>
+    <string name="activity_ISchedule_label">i课程</string>
+    <string name="main_function_5_label">Hebe手册</string>
+    <string name="activity_library_label">图书馆</string>
+    <string name="exit_label">退出</string>
+    
+    <!-- ISchedule's String -->
+    <string name="display_course_schedule">课程表</string>
+    <string name="display_exam_schedule">考试表</string>
+    <string name="display_exam_score">成绩</string>
+    
+    <string name="settings_label">系统设定</string>
+    <string name="settings_title">校园软件设定</string>
+    <string name="wifi_engabled">Enable Wifi</string>
+    <string name="settings_shortcut">s</string>
+    
+    <string name="restaurant_introduction">  简介：</string>
+    <string name="restaurant_menu">  菜单：</string>
+    <string name="dial_call_in_meal">一键订餐</string>
+    <string name="search_restaurant_hint">输入餐店名称....</string>
+    
+    <string name="jwc_user_account_number">学号</string>
+    <string name="jwc_user_password">密码</string>
+    
+    <string name="function_update_schedule_label">更新</string>
+    <string name="ischedule_update_label">更新课程信息</string>
+    <string name="course_schedule_update_label">更新课程表</string>
+    <string name="exam_schedule_update_label">更新考试表</string>
+    <string name="waimaixt_update_label">更新餐店数据</string>
+    <string name="map_data_update_label">更新地图数据</string>
+    <string name="use_smart_viberate_label">启用智能震机系统</string>
+    <string name="update">更新</string>
+    
+    <string name="settings_title_bar">系统设定</string>
+    
+    <string name="jwc_save_user_info_checkbox">记住我</string>
+
+</resources>
